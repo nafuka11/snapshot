@@ -1,6 +1,6 @@
-import Container from "./Container";
+import Container from './Container';
 
-const Item: React.VFC<{searchTerm: string}> = ({searchTerm}) => {
+const Item: React.VFC<{ searchTerm: string }> = ({ searchTerm }) => {
   return (
     <div>
       <h2>{searchTerm} Pictures</h2>
