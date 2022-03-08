@@ -1,8 +1,8 @@
-import { useParams } from "react-router-dom";
-import Container from "./Container";
+import { useParams } from 'react-router-dom';
+import Container from './Container';
 
 const Search: React.VFC = () => {
-  const {searchInput} = useParams()
+  const { searchInput } = useParams();
 
   return (
     <div>
